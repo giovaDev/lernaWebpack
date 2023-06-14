@@ -1,0 +1,21 @@
+{
+  "name": "@root/router",
+  "version": "0.0.3",
+  "main": "src/index.tsx",
+  "license": "MIT",
+  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@root/async-leaf": "^0.0.2",
+    "@root/leaf": "^0.0.2",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "react-router-dom": "^4.2.2"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --color",
+    "build:webpack": "webpack --mode production"
+  }
+}
